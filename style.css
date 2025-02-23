@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+header nav ul li a.entry-fresh {
+    background-color: #e03131;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+header nav ul li a.entry-career {
+    background-color: #e03131;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-text .challenge {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.hero-text .main-title {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.content h3.company-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.special-contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-contents .content-item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.special-contents .content-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
